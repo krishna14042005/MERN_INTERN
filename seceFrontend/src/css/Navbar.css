@@ -1,0 +1,22 @@
+ul{
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+    margin:0;
+    padding: 10px;
+    background-color: chocolate;
+    color: rgb(17, 224, 45);
+
+}
+.link{
+    text-decoration: none;
+    color: rgb(168, 206, 28);
+}
+.link:hover{
+    background-color: rgb(47, 130, 202);
+    color: chocolate;
+    border-radius: 10px;
+    padding: 5px;
+
+}
