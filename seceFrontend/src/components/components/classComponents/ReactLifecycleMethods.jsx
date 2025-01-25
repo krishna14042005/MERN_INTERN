@@ -23,13 +23,12 @@ class ReactLifecycleMethods extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div style={{ textAlign: "center" }}>
         <h1>This is React Lifecycle Methods</h1>
         <h2>The state value is {this.state.number}</h2>
         <button
           onClick={this.updateNum}
-        >
-          +
+        >+
         </button>
       </div>
     );
