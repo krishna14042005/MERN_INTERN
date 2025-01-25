@@ -1,4 +1,5 @@
 import Faculty from "./Faculty";
+
 const Invigilator = () =>{
     return(
         <div>

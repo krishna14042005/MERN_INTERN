@@ -30,7 +30,6 @@ const Navbar = () => {
                     <li><Link to="/Student" class="link">Student</Link></li>
                 </ol>)}
             </div>
-            <li><Link to="/Memo" class="link">React.memo</Link></li>
 
             <div>
                 <span onMouseEnter={toggleDroupdown} >Memoization</span>

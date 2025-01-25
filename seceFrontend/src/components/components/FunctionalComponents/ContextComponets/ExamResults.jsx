@@ -1,5 +1,7 @@
 import { useContext } from "react";
 import { ThemeProvider } from "../Hooks/Student";
+
+
 const ExamResults = () =>{
     const res = useContext(ThemeProvider)
     return(

@@ -1,5 +1,6 @@
-import Invigilator from "../ContextComponents/Invigilator";
+import Invigilator from "../ContextComponets/Invigilator";
 import { createContext } from "react";
+
 export const ThemeProvider = createContext();
 const Student = () =>{
     return(

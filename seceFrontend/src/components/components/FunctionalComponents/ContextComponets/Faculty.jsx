@@ -1,4 +1,5 @@
 import CoE from "./CoE";
+
 const Faculty = () =>{
     return(
         <div>
