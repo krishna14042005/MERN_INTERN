@@ -1,11 +1,8 @@
-const useLocalStorage = () =>{
+const UseLocalStorage = () => {
     return(
         <div>
-        <h2>Utilizing Custom Hook Created</h2>
-
-        <h3>the text typed</h3>
+        <h2>Utilicing Custom HooK Created</h2>
         </div>
-           
     )
 }
-export default useLocalStorage;
+export default UseLocalStorage;

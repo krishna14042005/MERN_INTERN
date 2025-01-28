@@ -18,6 +18,9 @@ import UseReducer from './components/components/FunctionalComponents/Hooks/UseRe
 import ReactLifecycleMethods from './components/components/classComponents/ReactLifecycleMethods'
 import Student from './components/components/FunctionalComponents/Hooks/Student'
 import Memo from './components/components/FunctionalComponents/Menoization/Memo'
+import LazyLoadingWithSuspense from './components/components/FunctionalComponents/Menoization/LazyLoadingWithSuspense'
+import UseLocalStorage from './components/components/FunctionalComponents/Hooks/CustomHooks/UseLocalStorage'
+import Hoc from './components/components/FunctionalComponents/ContextComponets/HoC/Hoc'
  function App() {
   return (
     <>
@@ -42,6 +45,9 @@ import Memo from './components/components/FunctionalComponents/Menoization/Memo'
         <Route path="UseCallback" element={<UseCallback/>}></Route>   
         <Route path="/Student" element={<Student/>}></Route>
         <Route path='/Memo' element={<Memo/>}></Route> 
+        <Route path='/LazyLoadingWithSuspense' element={<LazyLoadingWithSuspense/>}></Route>
+        <Route path='/UseLocalStorage' element={<UseLocalStorage/>}></Route>
+        <Route path='/Hoc' element={<Hoc/>}></Route>
         <Route path="/Signup" element={<Signup/>}></Route>
         
         
